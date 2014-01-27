@@ -1,0 +1,185 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:31:18 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (1.3ms)
+Completed 200 OK in 24ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:31:20 -0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/railties-4.0.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:36:43 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 723ms (Views: 707.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:44 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+Processing by Devise::SessionsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9340ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3960ms
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 42ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:36:54 -0800
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3790ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:02 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:04 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 30ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:07 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HUUn3azlQ7/MkwERyXsYnOBF6UyZP3Q7GGzup525MEM=", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4460ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4910ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=web_ui_development collection=users selector={"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')} update={"$set"=>{"last_sign_in_at"=>2014-01-27 00:26:12 UTC, "current_sign_in_at"=>2014-01-27 00:37:16 UTC, "sign_in_count"=>3}} flags=[]
+                         COMMAND      database=web_ui_development command={:getlasterror=>1, :w=>1} runtime: 0.6250ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 82ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
