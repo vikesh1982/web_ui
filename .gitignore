@@ -12,6 +12,7 @@
 *.swp
 
 # Ignore all logfiles and tempfiles.
+/log
 /log/*.log
 #/spec/dummy/log/*.log
 /tmp
