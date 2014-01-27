@@ -6,6 +6,8 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+gem 'foundation-rails'
+
 gem 'mongoid', '~> 4.0.0.alpha2'
 gem 'bson_ext'
 

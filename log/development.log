@@ -183,3 +183,1045 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 16:37:16 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:50:04 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 3067ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:                 <li> <%= render 'devise/menu/profile' %> </li>
+    32:               </ul>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__3318886394980793248_70217425292460'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:52:33 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 71ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:                 <li> <%= render 'devise/menu/profile' %> </li>
+    32:               </ul>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___774101888188525660_70228026309140'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:52:35 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:                 <li> <%= render 'devise/menu/profile' %> </li>
+    32:               </ul>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___774101888188525660_70228026309140'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:53:43 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:                 <li> <%= render 'devise/menu/profile' %> </li>
+    32:               </ul>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__3694055703936248356_70353335035360'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:53:46 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:                 <li> <%= render 'devise/menu/profile' %> </li>
+    32:               </ul>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__3694055703936248356_70353335035360'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 16:58:14 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (Missing partial devise/menu/registration_items with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/Users/swami/dev/github/web_ui/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/devise-3.2.2/app/views"
+  * "/Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/foundation-rails-5.0.2.0/app/views"
+):
+    26:             <li class="has-dropdown">
+    27:               <a href="#">My Home</a>
+    28:               <ul class="dropdown">
+    29:                 <li> <%= render 'devise/menu/registration_items' %> </li>
+    30:                 <li> <%= render 'devise/menu/login_items' %> </li>
+    31:               </ul>
+    32:             </li>
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb__3165467392217692442_70266841528860'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:00:29 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1390ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1060ms
+  Rendered devise/menu/_registration_items.html.erb (258.3ms)
+Completed 500 Internal Server Error in 328ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:70310315639520 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    1: <% if user_signed_in? %>
+    2:   <li>
+    3:   <%= link_to('Edit registration', edit_user_registration_path) %>
+    4:   </li>
+  app/views/devise/menu/_registration_items.html.erb:1:in `_app_views_devise_menu__registration_items_html_erb__2433638349738699350_70310338744000'
+  app/views/layouts/application.html.erb:29:in `_app_views_layouts_application_html_erb___325250884322433477_70310339136400'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:00:44 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0690ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 11.7660ms
+  Rendered devise/menu/_registration_items.html.erb (266.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.8ms)
+Completed 200 OK in 502ms (Views: 500.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:00:45 -0800
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:00:49 -0800
+
+ActionController::RoutingError (No route matches [DELETE] "/users/sign_out"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (24.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:41 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4280ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3260ms
+  Rendered devise/menu/_registration_items.html.erb (2.3ms)
+  Rendered devise/menu/_login_items.html.erb (0.1ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:01:46 -0800
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:01:50 -0800
+
+ActionController::RoutingError (No route matches [DELETE] "/users/sign_out"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.3ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:03:08 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.4ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.3ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:03:10 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-01-26 17:03:13 -0800
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/swami/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8430ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3380ms
+  Rendered devise/menu/_registration_items.html.erb (32.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.7ms)
+Completed 200 OK in 179ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:16 -0800
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"01BCbaXs1nxqR8jFoyMgHD/a3509HPIl/v58GbZUkvI="}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4590ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3740ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (7.9ms)
+  Rendered devise/menu/_login_items.html.erb (0.2ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:18 -0800
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-26 17:03:21 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered devise/menu/_registration_items.html.erb (0.4ms)
+  Rendered devise/menu/_login_items.html.erb (0.1ms)
+Completed 200 OK in 30ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:21 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:22 -0800
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"knCN23SlyxhK8QXm0l/B9ZumMQXo143FMag6/DwwrIc=", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"email"=>"test@test.com"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0430ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=web_ui_development collection=users selector={"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')} update={"$set"=>{"last_sign_in_at"=>2014-01-27 00:37:16 UTC, "current_sign_in_at"=>2014-01-27 01:03:33 UTC, "sign_in_count"=>4}} flags=[]
+                         COMMAND      database=web_ui_development command={:getlasterror=>1, :w=>1} runtime: 0.6260ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5170ms
+  Rendered devise/menu/_registration_items.html.erb (1.6ms)
+  Rendered devise/menu/_login_items.html.erb (0.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:33 -0800
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+Processing by Devise::RegistrationsController#edit as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.0180ms
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.7ms)
+  Rendered devise/menu/_login_items.html.erb (0.5ms)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:36 -0800
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SsJX7y1qvKke03ZxXUlGVS1zEerTuuwiGWCF4uCrYFE="}
+  MOPED: 127.0.0.1:27017 QUERY        database=web_ui_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('52e5a5e4506f6e16b3000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4650ms
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered devise/menu/_registration_items.html.erb (0.5ms)
+  Rendered devise/menu/_login_items.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:42 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-26 17:03:43 -0800
