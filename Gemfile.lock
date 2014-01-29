@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/mongoid/moped.git
+  revision: a8aeb427748d44dbe2c0a48f536ba7d9d38841e9
+  specs:
+    moped (2.0.0.beta5)
+      bson (~> 2.2)
+      connection_pool (~> 1.2)
+      optionable (~> 0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,7 +38,6 @@ GEM
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
     bson (2.2.0)
-    bson_ext (1.5.1)
     builder (3.1.4)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -45,6 +53,8 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    doorkeeper (1.0.0)
+      railties (>= 3.1)
     erubis (2.7.0)
     execjs (2.0.2)
     foundation-rails (5.0.2.0)
@@ -69,10 +79,6 @@ GEM
       moped (~> 2.0.beta5)
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
-    moped (2.0.0.beta5)
-      bson (~> 2.1)
-      connection_pool (~> 1.2)
-      optionable (~> 0.2.0)
     multi_json (1.8.4)
     optionable (0.2.0)
     origin (2.1.0)
@@ -135,13 +141,15 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bson_ext
+  bson
   coffee-rails (~> 4.0.0)
   devise
+  doorkeeper
   foundation-rails
   jbuilder (~> 1.2)
   jquery-rails
   mongoid (~> 4.0.0.alpha2)
+  moped!
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc

@@ -9,9 +9,14 @@ gem 'sqlite3'
 gem 'foundation-rails'
 
 gem 'mongoid', '~> 4.0.0.alpha2'
-gem 'bson_ext'
+
 
 gem 'devise'
+
+gem 'doorkeeper'
+
+gem 'bson'
+gem 'moped', github: 'mongoid/moped'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
