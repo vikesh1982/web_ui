@@ -10,6 +10,7 @@ gem 'foundation-rails'
 
 gem 'mongoid', '~> 4.0.0.alpha2'
 
+gem 'therubyracer'
 
 gem 'devise'
 
